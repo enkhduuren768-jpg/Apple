@@ -1,0 +1,574 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100vw;
+  height: 44px;
+  gap: 24px;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #f5f5f7cc;
+  margin-bottom: 20px;
+}
+.zurag-1 {
+  background-image: url(./images/zurag-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 692px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+.zurag-1-deed-1 {
+  width: 405px;
+  height: 172px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 55px;
+}
+.zurag-1-deed-1-1 {
+  font-size: 52px;
+  font-weight: 600;
+  color: #f5f5f7;
+}
+.zurag-1-deed-1-2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #f5f5f7;
+  margin-top: 16px;
+}
+.zurag-1-deed-2 {
+  width: 207px;
+  height: 44px;
+  margin-top: 20px;
+  gap: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zurag-1-deed-2-1 {
+  font-size: 16px;
+  height: 44px;
+  width: 123px;
+  border-radius: 999px;
+  background-color: #0071e3;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zurag-1-deed-2-2 {
+  width: 68px;
+  height: 44px;
+  border: #0071e3 solid;
+  color: #0071e3;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 99px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zurag-2 {
+  background-image: url(./images/zurag-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 692px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12px;
+}
+.zurag-2-deed-1 {
+  width: 405px;
+  height: 108px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 55px;
+}
+.zurag-2-deed-1-1 {
+  font-size: 52px;
+  font-weight: 600;
+  color: #f5f5f7;
+}
+.zurag-2-deed-1-2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #f5f5f7;
+  margin-top: 16px;
+}
+.zurag-2-deed-2 {
+  width: 207px;
+  height: 44px;
+  margin-top: 20px;
+  gap: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zurag-2-deed-2-1 {
+  font-size: 16pxpx;
+  height: 44px;
+  width: 123px;
+  border-radius: 999px;
+  background-color: #ffffff;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zurag-2-deed-2-2 {
+  width: 68px;
+  height: 44px;
+  border: #ffffff solid;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 99px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.huudas-3 {
+  width: 100vw;
+  display: flex;
+  margin-top: 12px;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.zu-1 {
+  background-image: url(./images/ipad.jpg);
+  width: calc(50vw - 6px);
+  height: 580px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.Ipad-AIR {
+  width: 430px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 58px;
+}
+.zu-1-hvv-1 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #1d1d1f;
+  margin-top: 9px;
+}
+
+.zu-1-img {
+  margin-top: 50px;
+}
+
+.zu-1-hvv-2 {
+  width: 199px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+.zu-1-hvv-2-1 {
+  width: 115px;
+  height: 40px;
+  border-radius: 999px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #0071e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zu-1-hvv-2-2 {
+  width: 68px;
+  height: 40px;
+  border-radius: 999px;
+  border: #2997ff solid;
+  color: #2997ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zu-1-hvv-3 {
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  background: linear-gradient(to right, #0090f7, #ba62fc, #f2416b, #f55600);
+  background-clip: text;
+  color: transparent;
+  margin-top: auto;
+  margin-bottom: 53px;
+}
+.zu-2 {
+  background-image: url(./images/airpods.jpg);
+  width: calc(50vw - 6px);
+  height: 580px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.zu-2-hvv-1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #f5f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 401px;
+}
+.zu-2-hvv-2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #f5f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+}
+.zu-2-hvv-3 {
+  width: 199px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 10px;
+}
+.zu-2-hvv-3-1 {
+  font-size: 16px;
+  height: 40px;
+  width: 115px;
+  border-radius: 999px;
+  background-color: #0071e3;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zu-2-hvv-3-2 {
+  width: 68px;
+  height: 40px;
+  border-radius: 999px;
+  border: #2997ff solid;
+  color: #2997ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zu-3 {
+  background-image: url(./images/watch.jpg);
+  width: calc(50vw - 6px);
+  height: 580px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.zu-3-img {
+  margin-top: 58px;
+}
+.zu-3-hvv-1 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #1d1d1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zu-3-hvv-2 {
+  width: 199px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 10px;
+}
+.zu-3-hvv-2-1 {
+  font-size: 16px;
+  height: 40px;
+  width: 115px;
+  border-radius: 999px;
+  background-color: #0071e3;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zu-3-hvv-2-2 {
+  width: 68px;
+  height: 40px;
+  border-radius: 999px;
+  border: #2997ff solid;
+  color: #2997ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zu-4 {
+  background-image: url(./images/macbook.jpg);
+  width: calc(50vw - 6px);
+  height: 580px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.zu-4-hvv-1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #1d1d1f;
+  margin-top: 48px;
+}
+.zu-4-hvv-2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #1d1d1f;
+  margin-top: 2px;
+}
+.zu-4-hvv-3 {
+  width: 199px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 10px;
+}
+.zu-4-hvv-3-1 {
+  font-size: 16px;
+  height: 40px;
+  width: 115px;
+  border-radius: 999px;
+  background-color: #0071e3;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zu-4-hvv-3-2 {
+  width: 68px;
+  height: 40px;
+  border-radius: 999px;
+  border: #2997ff solid;
+  color: #2997ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zu-5 {
+  background-image: url(./images/trade\ in.jpg);
+  width: calc(50vw - 6px);
+  height: 580px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.zu-5-img {
+  margin-top: 58px;
+}
+.zu-5-hvv-1 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #1d1d1f;
+}
+.zu-5-hvv-2 {
+  width: 167px;
+  height: 40px;
+  background-color: #0071e3;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  border-radius: 999px;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zu-6 {
+  background-image: url(./images/card.jpg);
+  width: calc(50vw - 6px);
+  height: 580px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.zu-6-img {
+  margin-top: 58px;
+}
+.zu-6-hvv-1 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #1d1d1f;
+  margin-top: 10px;
+}
+.zu-6-hvv-2 {
+  width: 246px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 16px;
+}
+.zu-6-hvv-2-1 {
+  font-size: 16px;
+  height: 40px;
+  width: 115px;
+  border-radius: 999px;
+  background-color: #0071e3;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zu-6-hvv-2-2 {
+  width: 68px;
+  height: 40px;
+  border-radius: 999px;
+  border: #0071e3 solid;
+  color: #2997ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.huudas-4 {
+  width: 100vw;
+  height: 668px;
+  margin-top: 12px;
+  gap: 16px;
+  display: flex;
+}
+.hu-4-1 {
+  height: 668px;
+  width: 1250px;
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-image: url(./images/napoleon.jpg);
+}
+.hu-4-1-1 {
+  width: 136px;
+  height: 42px;
+  border-radius: 999px;
+  background-color: #f5f5f7;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 567px;
+  font-size: 17px;
+}
+.child1 {
+  color: #ffffff;
+  display: flex;
+  margin-bottom: 5px;
+}
+.hu-4-2 {
+  height: 668px;
+  width: 1250px;
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-image: url(./images/bad-monkey.jpg);
+}
+.hu-4-3 {
+  height: 668px;
+  width: 1250px;
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-image: url(./images/instigators.jpg);
+}
+.hu-4-4 {
+  height: 668px;
+  width: 1250px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./images/k-pop-idols.jpg);
+}
+.hu-4-5 {
+  height: 668px;
+  width: 1250px;
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-image: url(./images/season-pass.jpg);
+}
+.hu-4-6 {
+  height: 668px;
+  width: 1250px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./images/pressumed-innocent.jpg);
+}
+.hu-4-7 {
+  height: 668px;
+  width: 1250px;
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-image: url(./images/pachinko.jpg);
+}
+.hu-4-8 {
+  background-image: url(./images/baseball.jpg);
+  height: 668px;
+  width: 1250px;
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+}
+.hu-4-9 {
+  background-image: url(./images/lady-in-the-lake.jpg);
+  height: 668px;
+  width: 1250px;
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+}
+.hu-4-10 {
+  background-image: url(./images/morning-show.jpg);
+  height: 668px;
+  width: 1250px;
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+}
