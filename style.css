@@ -460,12 +460,151 @@ header {
   justify-content: center;
   align-items: center;
 }
+.zu-7 {
+  background-image: url(./images/airpods4.jpg);
+  width: calc(50vw - 6px);
+  height: 490px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.zu-7-hvv-1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #f5f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 287px;
+}
+.zu-7-hvv-2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #f5f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+}
+.zu-7-hvv-3 {
+  width: 241px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+.zu-7-hvv-3-1 {
+  width: 107px;
+  height: 36px;
+  background-color: #0071e3;
+  color: #f5f5f7;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zu-7-hvv-3-2 {
+  width: 66px;
+  height: 36px;
+  border-radius: 999px;
+  border: #0071e3 solid;
+  color: #2997ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zu-8 {
+  background-image: url(./images/series10.jpg);
+  width: calc(50vw - 6px);
+  height: 490px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.zu-8-hvv-1 {
+  width: 152px;
+  height: 34px;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  margin-top: 46px;
+}
+.zu-8-hvv-1-1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zu-8-hvv-2 {
+  font-size: 13px;
+  font-weight: 700;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+}
+.zu-8-hvv-3 {
+  font-size: 13px;
+  font-weight: 700;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+}
+.zu-8-hvv-4 {
+  width: 235px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+.zu-8-hvv-4-1 {
+  width: 107px;
+  height: 36px;
+  background-color: #0071e3;
+  color: #f5f5f7;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zu-8-hvv-4-2 {
+  width: 66px;
+  height: 36px;
+  border-radius: 999px;
+  border: #0071e3 solid;
+  color: #2997ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .huudas-4 {
   width: 100vw;
   height: 668px;
   margin-top: 12px;
   gap: 16px;
   display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
 }
 .hu-4-1 {
   height: 668px;
@@ -473,6 +612,7 @@ header {
   background-position: center;
   background-size: cover;
   flex-shrink: 0;
+  scroll-snap-align: center;
   background-repeat: no-repeat;
   background-image: url(./images/napoleon.jpg);
 }
@@ -499,6 +639,7 @@ header {
   background-position: center;
   background-size: cover;
   flex-shrink: 0;
+  scroll-snap-align: center;
   background-repeat: no-repeat;
   background-image: url(./images/bad-monkey.jpg);
 }
@@ -510,14 +651,17 @@ header {
   flex-shrink: 0;
   background-repeat: no-repeat;
   background-image: url(./images/instigators.jpg);
+  scroll-snap-align: center;
 }
 .hu-4-4 {
   height: 668px;
   width: 1250px;
   background-position: center;
   background-size: cover;
+  flex-shrink: 0;
   background-repeat: no-repeat;
   background-image: url(./images/k-pop-idols.jpg);
+  scroll-snap-align: center;
 }
 .hu-4-5 {
   height: 668px;
@@ -527,14 +671,17 @@ header {
   flex-shrink: 0;
   background-repeat: no-repeat;
   background-image: url(./images/season-pass.jpg);
+  scroll-snap-align: center;
 }
 .hu-4-6 {
   height: 668px;
   width: 1250px;
   background-position: center;
   background-size: cover;
+  flex-shrink: 0;
   background-repeat: no-repeat;
   background-image: url(./images/pressumed-innocent.jpg);
+  scroll-snap-align: center;
 }
 .hu-4-7 {
   height: 668px;
@@ -544,6 +691,7 @@ header {
   flex-shrink: 0;
   background-repeat: no-repeat;
   background-image: url(./images/pachinko.jpg);
+  scroll-snap-align: center;
 }
 .hu-4-8 {
   background-image: url(./images/baseball.jpg);
@@ -553,6 +701,7 @@ header {
   background-size: cover;
   flex-shrink: 0;
   background-repeat: no-repeat;
+  scroll-snap-align: center;
 }
 .hu-4-9 {
   background-image: url(./images/lady-in-the-lake.jpg);
@@ -560,6 +709,7 @@ header {
   width: 1250px;
   background-position: center;
   background-size: cover;
+  scroll-snap-align: center;
   flex-shrink: 0;
   background-repeat: no-repeat;
 }
@@ -570,5 +720,26 @@ header {
   background-position: center;
   background-size: cover;
   flex-shrink: 0;
+  scroll-snap-align: center;
   background-repeat: no-repeat;
+}
+
+.item {
+  height: 668px;
+  width: 1250px;
+  flex-shrink: 0;
+  scroll-snap-align: center;
+  background-color: aquamarine;
+}
+.anchors {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.anchor {
+  background-color: #0000006B;
+  height: 20px;
+  width: 20px;
+  border-radius: 999px;
 }
