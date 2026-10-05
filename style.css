@@ -18,6 +18,10 @@ header {
   background-color: #f5f5f7cc;
   margin-bottom: 20px;
 }
+.text {
+  display: flex;
+  gap: 24px;
+}
 .zurag-1 {
   background-image: url(./images/zurag-1.jpg);
   background-position: center;
@@ -28,15 +32,14 @@ header {
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
+  margin-top: 55px;
 }
 .zurag-1-deed-1 {
   width: 405px;
-  height: 172px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 55px;
 }
 .zurag-1-deed-1-1 {
   font-size: 52px;
@@ -100,7 +103,6 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 55px;
 }
 .zurag-2-deed-1-1 {
   font-size: 52px;
@@ -167,7 +169,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 58px;
 }
 .zu-1-hvv-1 {
   font-size: 18px;
@@ -240,7 +241,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 401px;
 }
 .zu-2-hvv-2 {
   font-size: 18px;
@@ -464,7 +464,7 @@ header {
   background-image: url(./images/airpods4.jpg);
   width: calc(50vw - 6px);
   height: 490px;
-  display: flex;
+  display: none;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
@@ -479,7 +479,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 287px;
+  padding: 50px;
 }
 .zu-7-hvv-2 {
   font-size: 18px;
@@ -488,7 +488,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 4px;
+  padding: 30px;
 }
 .zu-7-hvv-3 {
   width: 241px;
@@ -523,7 +523,7 @@ header {
   background-image: url(./images/series10.jpg);
   width: calc(50vw - 6px);
   height: 490px;
-  display: flex;
+  display: none;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
@@ -596,6 +596,188 @@ header {
   justify-content: center;
   align-items: center;
 }
+.zu-9 {
+  background-image: url(./images/mac.jpg);
+  width: calc(50vw - 6px);
+  height: 490px;
+  display: none;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.zu-9-hvv-1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #1d1d1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 42px;
+}
+.zu-9-hvv-2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #1d1d1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+}
+.zu-9-hvv-3 {
+  width: 257px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+.zu-9-hvv-3-1 {
+  width: 107px;
+  height: 36px;
+  background-color: #0071e3;
+  color: #f5f5f7;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zu-9-hvv-3-2 {
+  width: 66px;
+  height: 36px;
+  border-radius: 999px;
+  border: #0071e3 solid;
+  color: #2997ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zu-10 {
+  background-image: url(./images/emegtei.png);
+  width: calc(50vw - 6px);
+  height: 490px;
+  display: none;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.zu10-hvv-1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #1d1d1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 42px;
+}
+.zu10-hvv-2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #1d1d1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+}
+.zu10-hvv-3 {
+  width: 257px;
+  height: 36px;
+  background-color: #0071e3;
+  color: #f5f5f7;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+.zu-11 {
+  background-image: url(./images/4tei.jpg);
+  width: calc(50vw - 6px);
+  height: 490px;
+  display: none;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.zu-11-1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #1d1d1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 296px;
+}
+.zu-11-2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #1d1d1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+}
+.zu-11-3 {
+  width: 126px;
+  height: 36px;
+  background-color: #0071e3;
+  color: #f5f5f7;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+.zu-12 {
+  background-image: url(./images/utasnuud.jpg);
+  width: calc(50vw - 6px);
+  height: 490px;
+  display: none;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.zu-12-hvv-1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1d1d1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 46px;
+}
+.zu-12-hvv-2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #1d1d1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+}
+.zu-12-hvv-3 {
+  width: 150px;
+  height: 36px;
+  background-color: #0071e3;
+  color: #f5f5f7;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
 .huudas-4 {
   width: 100vw;
   height: 668px;
@@ -625,13 +807,14 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 567px;
   font-size: 17px;
+  margin-top: 550px;
 }
 .child1 {
   color: #ffffff;
   display: flex;
   margin-bottom: 5px;
+  justify-content: center;
 }
 .hu-4-2 {
   height: 668px;
@@ -738,8 +921,244 @@ header {
   align-items: center;
 }
 .anchor {
-  background-color: #0000006B;
-  height: 20px;
-  width: 20px;
+  background-color: #0000006b;
+  height: 10px;
+  width: 10px;
   border-radius: 999px;
+  margin-top: 12px;
+}
+
+@media (max-width: 768px) {
+  .zu-1,
+  .zu-2,
+  .zu-3,
+  .zu-4,
+  .zu-5,
+  .zu-6 {
+    display: none;
+  }
+
+  .zu-7,
+  .zu-8,
+  .zu-9,
+  .zu-10,
+  .zu-11,
+  .zu-12 {
+    display: block;
+  }
+  .text {
+    display: none;
+  }
+  .icon-1 {
+    margin-right: 500px;
+  }
+  .icon-4 {
+    margin-left: 13px;
+  }
+
+  .zurag-1 {
+    background-image: url(./images/./tab.jpg);
+    background-position: center;
+  }
+  .zurag-2 {
+    background-image: url(./images/tab-2.jpg);
+  }
+}
+
+@media (max-width: 390px) {
+  .zu-2,
+  .zu-3,
+  .zu-4,
+  .zu-5,
+  .zu-6 {
+    display: none;
+  }
+  .zu-1,
+  .zu-7,
+  .zu-8,
+  .zu-9,
+  .zu-10,
+  .zu-11,
+  .zu-12 {
+    display: flex;
+    width: 100vw;
+  }
+
+  .huudas-3 {
+    display: block;
+  }
+  .text {
+    display: none;
+  }
+  .icon-1 {
+    margin-right: 200px;
+  }
+  .zurag-1 {
+    background-image: url(./images/4d617ff6192318499aff8aebb56aaf232c8f00d4.jpg);
+  }
+
+  .zurag-2 {
+    background-image: url(./images/utas-2.jpg);
+  }
+  .zu-1-img {
+    background-position: 50%;
+  }
+}
+
+.huudas-5 {
+  width: 100vw;
+  height: 292px;
+  margin-top: 32px;
+  gap: 16px;
+  display: flex;
+  overflow-x: hidden;
+}
+
+.huudas-5-inside {
+  position: relative;
+  width: 4170px;
+  flex-shrink: 0;
+}
+
+.huu-5-1 {
+  height: 100%;
+  position: absolute;
+  left: 100%;
+  width: 417px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./images/1.jpg);
+  animation: slide 60s linear infinite;
+  animation-delay: calc((56.5s / 10) * (1 - 6.5));
+}
+.huu-5-2 {
+  background-image: url(./images/2.jpg);
+  height: 100%;
+  position: absolute;
+  left: 100%;
+  width: 417px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: slide 60s linear infinite;
+  animation-delay: calc((56.5s / 10) * (2 - 6.5));
+}
+.huu-5-3 {
+  background-image: url(./images/3.jpg);
+  height: 100%;
+  position: absolute;
+  left: 100%;
+  width: 417px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: slide 60s linear infinite;
+  animation-delay: calc((56.5s / 10) * (3 - 6.5));
+}
+.huu-5-4 {
+  background-image: url(./images/4.jpg);
+  height: 100%;
+  position: absolute;
+  left: 100%;
+  width: 417px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: slide 60s linear infinite;
+  animation-delay: calc((56.5s / 10) * (4 - 6.5));
+}
+.huu-5-5 {
+  background-image: url(./images/5.jpg);
+  height: 100%;
+  position: absolute;
+  left: 100%;
+  width: 417px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: slide 60s linear infinite;
+  animation-delay: calc((56.5s / 10) * (5 - 6.5));
+}
+.huu-5-6 {
+  background-image: url(./images/6.jpg);
+  height: 100%;
+  position: absolute;
+  left: 100%;
+  width: 417px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: slide 60s linear infinite;
+  animation-delay: calc((56.5s / 10) * (6 - 6.5));
+}
+.huu-5-7 {
+  background-image: url(./images/7.jpg);
+  height: 100%;
+  position: absolute;
+  left: 100%;
+  width: 417px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: slide 60s linear infinite;
+  animation-delay: calc((56.5s / 10) * (7 - 6.5));
+}
+.huu-5-8 {
+  background-image: url(./images/8.jpg);
+  height: 100%;
+  position: absolute;
+  left: 100%;
+  width: 417px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: slide 60s linear infinite;
+  animation-delay: calc((56.5s / 10) * (8 - 6.5));
+}
+.huu-5-9 {
+  background-image: url(./images/9.jpg);
+  height: 100%;
+  position: absolute;
+  left: 100%;
+  width: 417px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: slide 60s linear infinite;
+  animation-delay: calc((56.5s / 10) * (9 - 6.5));
+}
+.huu-5-10 {
+  background-image: url(./images/10.jpg);
+  height: 100%;
+  position: absolute;
+  left: 100%;
+  width: 417px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: slide 60s linear infinite;
+  animation-delay: calc((56.5s / 10) * (10 - 6.5));
+}
+
+@keyframes slide {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -417px;
+  }
+}
+.huudas-5:hover .huudas-5-item {
+  filter: grayscale(1);
+  animation-play-state: paused;
+}
+
+.huudas-5 .huudas-5-item:hover {
+  filter: grayscale(0);
+}
+
+.item:hover button {
+  opacity: 1;
+  margin-top: 0;
 }
