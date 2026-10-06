@@ -809,6 +809,9 @@ header {
   align-items: center;
   font-size: 17px;
   margin-top: 550px;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
 }
 .child1 {
   color: #ffffff;
@@ -928,6 +931,19 @@ header {
   margin-top: 12px;
 }
 
+.hu-4-1,
+.hu-4-2,
+.hu-4-3,
+.hu-4-4,
+.hu-4-5,
+.hu-4-6,
+.hu-4-7,
+.hu-4-8,
+.hu-4-9,
+.hu-4-10 {
+  position: relative;
+}
+
 @media (max-width: 768px) {
   .zu-1,
   .zu-2,
@@ -994,14 +1010,36 @@ header {
     margin-right: 200px;
   }
   .zurag-1 {
-    background-image: url(./images/4d617ff6192318499aff8aebb56aaf232c8f00d4.jpg);
+    background: url(./images/4d617ff6192318499aff8aebb56aaf232c8f00d4.jpg)
+      center/cover no-repeat;
+    padding-top: 30px;
   }
 
   .zurag-2 {
-    background-image: url(./images/utas-2.jpg);
+    background: url(./images/./utas-2.jpg) center/cover no-repeat;
+    padding-top: 30px;
   }
   .zu-1-img {
     background-position: 50%;
+  }
+
+  .huudas-4 {
+    width: 100vw;
+    height: 495px;
+  }
+
+  .hu-4-1,
+  .hu-4-2,
+  .hu-4-3,
+  .hu-4-4,
+  .hu-4-5,
+  .hu-4-6,
+  .hu-4-7,
+  .hu-4-8,
+  .hu-4-9,
+  .hu-4-10 {
+    height: 100%;
+    width: 274px;
   }
 }
 
